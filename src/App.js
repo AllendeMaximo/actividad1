@@ -3,6 +3,7 @@ import Navbar from './components/nabvar';
 import Cards from './components/cards';
 import './App.css';
 
+
 const App = () => {
   return (
     <div className="app">
@@ -10,6 +11,7 @@ const App = () => {
       <div className="content-container">
         <Cards />
       </div>
+      
     </div>
   );
 };

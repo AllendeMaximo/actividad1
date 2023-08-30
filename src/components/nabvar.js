@@ -1,15 +1,17 @@
+import React from 'react';
 import '../index.css';
-function Nabvar() {
-    return (
-        <nav className="navbar">
-          <div className="logo">Logo</div>
-          <ul className="nav-list">
-            <li>Inicio</li>
-            <li>Servicios</li>
-            <li>Contacto</li>
-          </ul>
-        </nav>
-      );
-    };
 
-export default Nabvar;
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <div className="logo">Logo</div>
+      <ul className="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Contactos</a></li>
+        <li><a href="/">Info</a></li>
+      </ul>
+    </nav>
+  );
+}
+
+export default Navbar;

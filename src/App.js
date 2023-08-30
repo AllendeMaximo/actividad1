@@ -1,11 +1,17 @@
+import React from 'react';
+import Navbar from './components/nabvar';
+import Cards from './components/cards';
 import './App.css';
-import './index';
-import Nabvar from './components/nabvar';
 
-function App() {
+const App = () => {
   return (
-    <Nabvar/>
+    <div className="app">
+      <Navbar />
+      <div className="content-container">
+        <Cards />
+      </div>
+    </div>
   );
-}
+};
 
 export default App;
